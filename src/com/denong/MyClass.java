@@ -7,4 +7,10 @@ public class MyClass {
 
 	}
 
+	@Override
+	public String toString() {
+		return "MyClass [getClass()=" + getClass() + ", hashCode()="
+				+ hashCode() + ", toString()=" + super.toString() + "]";
+	}
+
 }
