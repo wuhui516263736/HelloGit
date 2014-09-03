@@ -34,6 +34,9 @@ public class HelloWorld {
 		} else if (!str.equals(other.str))
 			return false;
 		return true;
+		
+		
+		
 	}
 	
 }
